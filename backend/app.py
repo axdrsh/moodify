@@ -6,8 +6,8 @@ app = Flask(__name__)
 CORS(app)
 
 # Replace these with your Spotify app credentials
-client_id = "3ca9739cc8a444149340bb22f4f6e742"
-client_secret = "49be279f62db40e4bc70ecbdbf95daaf"
+client_id = 'CLIENT_ID'
+client_secret = 'CLIENT_SECRET'
 
 # Set up client credentials authentication
 app_token = tk.request_client_token(client_id, client_secret)
